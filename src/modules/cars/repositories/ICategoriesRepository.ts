@@ -1,4 +1,4 @@
-import { Category } from "../model/category";
+import { Category } from "../model/Category";
 
 interface ICategoriesRepository {
   findByName(name: string): Category | undefined;
